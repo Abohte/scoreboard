@@ -1,4 +1,3 @@
-// src/components/Title.test.js
 import React from 'react'
 import { shallow } from 'enzyme'
 import Title from './Title'

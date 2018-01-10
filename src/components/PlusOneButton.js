@@ -1,4 +1,3 @@
-// src/components/PlusOneButton.js
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
 import './PlusOneButton.css'

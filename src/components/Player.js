@@ -1,5 +1,3 @@
-// src/components/Player.js
-
 import React, { PureComponent } from 'react'
 import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
@@ -21,8 +19,6 @@ class Player extends PureComponent {
 
   increasePlayerScore = () => {
     const { id } = this.props
-    // onChange(id, { score: score + 1 })
-    // console.log(id)
     this.props.plusOne(id)
   }
 
